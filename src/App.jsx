@@ -23,7 +23,7 @@ function App() {
         <Route path="/all-downloads" element={<AllDownloads />} />
         <Route path="/resume/:id" element={<SingleResume />} />
 
-        <Route path="/*" element={<PNF />} />
+        <Route path="*" element={<PNF />} />
       </Routes>
       <Footer />
       <ToastContainer
